@@ -1,36 +1,112 @@
-<!DOCTYPE html5>
+<!DOCTYPE html>
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>InforTech</title>
-    <style>
-        img{
-            width: 350px;
-            transition: 0.5s;
-        }
-        img:hover{
-            width: 390px;
-        }
-    </style>
+    <title>INFORSHOP</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Hammersmith+One&display=swap" rel="stylesheet">
 </head>
 <body>
-    <img src="foto1.jpg" alt="HD" >
-    <img src="foto2.jpg" alt="placa mae" ><br>
-    <img src="foto3.jpg" alt="placa de video" >
-    <img src="foto4.jpg" alt="mouse" >
-    <h1>venda de peças</h1> <!-- Este e o titulo do meu site-->
-    <p>Encontre <b>Peças para PC Gamer</b> ideais para sua <i>máquina</i>. Coolers, fontes, placas mãe, rede, de vídeo, processadores e muito mais!
-    </p>
-    <h2>venda de peças</h2>
-    <h3>venda de peças</h3>
-    <h4>venda de peças</h4>
-    <h5>venda de peças</h5>
-    <h6>venda de peças</h6>
+    <div class="container">
+        <header>
+            <div class="logo"><img src="./img/INFORSHOP.svg" alt="INFORSHOP"></div>
+            <nav>
+                <ul>
+                    <li><a href="">HOME</a></li>
+                    <li><a href="">DEPARTAMENTOS</a>
+                        <ul>
+                            <li><a href="#">Hardware</a></li>
+                            <li><a href="#">Perifericos</a></li>
+                            <li><a href="#">Gabinetes</a></li>
+                            <li><a href="#">Monitores</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="">EMPRESA</a></li>
+                    <li><a href="">CONTATO</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <div class="voce_procura">
+                <h2>O que você procura?</h2>
+                <div class="caixa_items">
+                    <div class="voce_procura_item">
+                        <div><img src="./img/image 2.png" alt="Home Office"></div>
+                        <a href="#">HOME OFFICE</a>
+                    </div>
+                    <div class="voce_procura_item">
+                        <div><img src="./img/image 1.png" alt="PC Gamer"></div>
+                        <a href="#">PC GAMER</a>
+                    </div>
+                </div>
+            </div>
 
+            <div class="mais_vendidos">
+                <h2 class="title_vendidos">Mais Vendidos:</h2>
+                <div class="mais_vendidos_items">
+                    <div class="mais_vendidos_item">
+                        <h2>Produto</h2>
+                        <div>
+                            <img src="./img/item.jpg" alt="item">
+                            <a href="#" class="botao">COMPRAR</a>
+                        </div>
+                    </div>
 
+                    <div class="mais_vendidos_item">
+                        <h2>Produto</h2>
+                        <div>
+                            <img src="./img/item.jpg" alt="item">
+                        </div>
+                        <a href="#" class="botao">COMPRAR</a>
+                    </div>
 
+                    <div class="mais_vendidos_item">
+                        <h2>Produto</h2>
+                        <div><img src="./img/item.jpg" alt="item"></div>
+                        <a href="#" class="botao">COMPRAR</a>
+                    </div>
 
+                    <div class="mais_vendidos_item">
+                        <h2>Produto</h2>
+                        <div><img src="./img/item.jpg" alt="item"></div>
+                        <a href="#" class="botao">COMPRAR</a>
+                    </div>
+
+                    <div class="mais_vendidos_item">
+                        <h2>Produto</h2>
+                        <div>
+                            <div><img src="./img/item.jpg" alt="item"></div>
+                            <a href="#" class="botao">COMPRAR</a>
+                        </div>
+                    </div>
+
+                    <div class="mais_vendidos_item">
+                        <h2>Produto</h2>
+                        <div><img src="./img/item.jpg" alt="item"></div>
+                        <a href="#" class="botao">COMPRAR</a>
+                    </div>
+
+                    <div class="mais_vendidos_item">
+                        <h2>Produto</h2>
+                        <div><img src="./img/item.jpg" alt="item"></div>
+                        <a href="#" class="botao">COMPRAR</a>
+                    </div>
+
+                    <div class="mais_vendidos_item">
+                        <h2>Produto</h2>
+                        <div><img src="./img/item.jpg" alt="item"></div>
+                        <a href="#" class="botao">COMPRAR</a>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <footer>
+            <p>© 2023 INFORSHOP Todos os direitos reservados.</p>
+        </footer>
+    </div>
 </body>
 </html>

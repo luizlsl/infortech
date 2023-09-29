@@ -1,0 +1,152 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: 'Hammersmith One', sans-serif;
+}
+body{
+    background-color: #dddddd;
+
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: #fff;
+}
+/**/
+header{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: #0078e7; 
+    margin-top: 30px;
+    padding: 50px 27px;
+    position: relative;
+}
+nav{
+    position: absolute;
+    right: 27px;
+}
+nav ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 24px;
+}
+nav ul li a{
+    padding: 10px 0;
+    color: #fff;
+    font-size: 20px;
+    transition: 0.5s;
+}
+nav ul li a:hover{
+    color: #005aae;
+}
+nav ul li ul{
+    background-color:#0078e7;
+    display:none;
+    position: absolute;
+    text-align: center;
+}
+nav ul li:hover ul{
+    display:block;
+    
+}
+nav ul li ul li{
+    display: flex;
+    flex-direction: column;
+    width:150px;
+}
+nav ul li ul li a{
+    border-bottom: 1px solid #005aae;
+    padding: 10px 0;
+    transition: 0.5s all;
+}
+
+nav ul li ul li a:hover{
+    color: #fff;
+    background-color: #005aae;
+
+}
+
+.voce_procura{
+    margin-top: 10px;
+    padding: 30px;
+}
+
+.voce_procura h2{
+    color: #0078e7;
+    padding: 10px;
+}
+
+.caixa_items{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    margin: 0px auto;
+    gap: 5px;
+
+}
+.voce_procura_item{
+    text-align: center;
+    font-size: 20px;
+}
+.voce_procura_item a{
+    color: #0078e7;
+    transition: 0.4s;
+
+}
+.voce_procura_item a:hover{
+    color: #005aae;
+    font-size: 21px;
+}
+
+.mais_vendidos{
+    padding: 10px;
+    margin-top: 100px ;
+}
+.title_vendidos{
+    color: #0078e7;
+    margin-bottom: 30px;
+}
+.mais_vendidos_items{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 60px;
+}
+
+.mais_vendidos_item{
+    text-align: center;
+    border: #0078e7 solid 2px;
+    padding: 20px 0;
+    text-transform: uppercase;
+    border-radius: 5px;
+}
+
+.mais_vendidos_item h2{
+    font-size: 20px;
+    color: #0078e7;
+}
+.botao{
+    padding: 10px 20px;
+    background-color: #0078e7;
+    margin: 10px;
+    border-radius: 5px;
+    color: #fff;
+    transition: 0.5s;
+}
+
+.botao:hover{
+    background-color: #005aae;
+}
+
+footer{
+    background-color: #0078e7;
+    text-align: center;
+    color: #fff;
+    padding: 10px;
+    margin-bottom: 30px;
+}
